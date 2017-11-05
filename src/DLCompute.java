@@ -14,7 +14,7 @@ public class DLCompute {
  * each variable such as subjects, final grade, and
  * number of units required to complete the evaluation 
  * 
- * @param args 
+ * @param args receives inputs 
  */
 public static void main(String[] args) {
     Scanner scan = new Scanner (System.in);
@@ -47,7 +47,7 @@ public static void main(String[] args) {
      * This method outputs the results whether the user
      * qualifies or not
      * 
-     * @param ave 
+     * @param ave to be used for a condition
      */
     public static void result(double ave) {
     System.out.println("Your average is " + ave);
@@ -60,9 +60,9 @@ public static void main(String[] args) {
      * This method divides total grade and total 
      * units and returns the average grade
      * 
-     * @param totalGrades
-     * @param totalUnits
-     * @return 
+     * @param totalGrades to be divided with totalUnits
+     * @param totalUnits to be divided with totalGrade
+     * @return returns the computed average grade
      */
     public static double computeAverage(double totalGrades, double totalUnits) {
         double ave;
@@ -73,8 +73,8 @@ public static void main(String[] args) {
      * This method adds units and total units
      * and returns the computed total units
      * 
-     * @param totalUnits
-     * @param units
+     * @param totalUnits required for computation
+     * @param units required for computation
      * @return 
      */
     public static double computeTotalUnits(double totalUnits, double units) {
@@ -84,9 +84,9 @@ public static void main(String[] args) {
     /**
      * This method returns the total grade
      * 
-     * @param totalGrades
-     * @param finGrade
-     * @return 
+     * @param totalGrades required for computation
+     * @param finGrade required for computation
+     * @return returns the total Grade
      */
     public static double computeTotalGrades(double totalGrades, double finGrade) {
         totalGrades = computeTotalUnits(totalGrades, finGrade);
@@ -96,9 +96,9 @@ public static void main(String[] args) {
      * This method multiplies grade and units
      * and returns the final grade
      * 
-     * @param grade
-     * @param units
-     * @return 
+     * @param grade required to compute for the final grade
+     * @param units to be multiplied to grade 
+     * @return returns the computed final grade
      */
     public static double computeFinalGrade(double grade, double units) {
         double finGrade;
