@@ -1,13 +1,4 @@
 import java.util.*;
-/**
- * Java class DLCompute 
- * This class computes for the average grade 
- * and outputs whether the user is qualified 
- * for the dean's list
- * 
- * @author ProgAppsLecGroup
- * @version 8.2, 05 Nov 2017
- */
 public class DLCompute {
 /**
  * This class allows the user to input values for 
