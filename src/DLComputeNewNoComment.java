@@ -1,10 +1,9 @@
-package project;
 /**
  * @author Group4_10:00-11:00_WS
  */
 import java.util.*;
 
-public class DLCompute {
+public class DLComputeNewNoComment {
 
     public static void main(String[] args) {
     	Scanner scan = new Scanner (System.in);
